@@ -1,4 +1,4 @@
-﻿namespace Blaisepascal.EnemyOrPlayer.test
+﻿namespace Blaisepascal.EnemyOrPlayer.DomainTest
 {
     public class UnitTest1
     {

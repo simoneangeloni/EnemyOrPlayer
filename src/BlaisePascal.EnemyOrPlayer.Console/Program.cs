@@ -17,7 +17,11 @@ public class Program
 
             Console.WriteLine($"Is the enemy alive? {enemy.IsAlive()}");
 
-            Player player = new Player("Mario");
+            Console.WriteLine("Insert player's name");
+            string playerName = Console.ReadLine();
+
+            Player player = new Player(playerName);
+            Console.WriteLine($"the name of your player is {player.Name}");
 
              player.GainExperience(150);
             int experience = player.Experience;
